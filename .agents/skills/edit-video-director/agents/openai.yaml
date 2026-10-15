@@ -1,0 +1,14 @@
+interface:
+  display_name: Video Director — ไทย / English
+  short_description: Edit video with cinematic Thai and English motion text
+  default_prompt: Use $edit-video-director to edit my footage with Thai or English
+    motion titles, balanced audio, and a verified MP4.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

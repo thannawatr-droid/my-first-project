@@ -1,0 +1,6 @@
+# Optional, not required for rendering. Model weights download separately.
+faster-whisper==1.2.1
+# PyAV 19 removed metadata_errors, used by faster-whisper 1.2.1.
+av==16.1.0
+# Support hosts configured with SOCKS proxies during model downloads.
+socksio>=1,<2
